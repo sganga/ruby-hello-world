@@ -9,7 +9,7 @@ configure do
   puts "Running app file"
   puts "Create database..."
   %x"rake db:create"
-  puts "Run migrations..."
+  puts "Run migrations......"
   %x"rake db:migrate"
   puts "Run app..."
 
